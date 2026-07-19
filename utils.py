@@ -355,7 +355,7 @@ def plot_customer_clusters(income, spending):
         label="Current Customer"
     )
 
-    ax.set_title("Customer Segments using K-Means")
+    ax.set_title("Customer Location in Segments using K-Means")
 
     ax.set_xlabel("Annual Income (k$)")
 
@@ -364,5 +364,5 @@ def plot_customer_clusters(income, spending):
     ax.legend()
 
     ax.grid(alpha=0.3)
-
+    plt.tight_layout()
     return fig

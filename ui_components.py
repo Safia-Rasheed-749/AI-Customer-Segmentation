@@ -279,28 +279,3 @@ def recommendation_card(text):
     st.info(text)
 
 
-#Footer
-
-def footer():
-
-    st.markdown("<hr>", unsafe_allow_html=True)
-
-    st.markdown(
-
-        """
-
-        <div class="footer">
-
-        AI Customer Segmentation System
-
-        <br>
-
-        Developed using Python • Scikit-Learn • Streamlit
-
-        </div>
-
-        """,
-
-        unsafe_allow_html=True
-
-    )

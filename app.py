@@ -131,14 +131,33 @@ if predict:
 
     #Cluster Visualization
 
-    section_header("📊 Customer Position in Clusters")
+section_header("📊 Customer Position in Clusters")
+
+with st.container(border=True):
+
+    st.markdown(
+        """
+        <div style="padding-bottom:10px;">
+            <p style="
+                color:#64748B;
+                font-size:16px;
+                margin-bottom:15px;
+            ">
+                The graph below shows the customer's location relative to the six identified customer segments.
+                The red ✕ represents the current customer.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     fig = plot_customer_clusters(
         income=income,
         spending=spending
     )
+left, center, right = st.columns([1, 4, 1])
 
+with center:
     st.pyplot(fig, use_container_width=True)
 
-
-    st.divider()
+st.divider()
