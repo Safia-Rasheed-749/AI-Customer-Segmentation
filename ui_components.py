@@ -129,10 +129,6 @@ div[data-testid="stExpander"] details summary:hover{
 
 
     }
-
-    
-
-
     .prediction-title{
 
         color:#64748B;
@@ -181,14 +177,10 @@ div[data-testid="stExpander"] details summary:hover{
 
 
 #Hero Section
-
-#Hero Section
-
 def hero_section():
-    # Bilkul simple HTML
     st.markdown(
         """
-        <div style="text-align:center; padding:35px 20px; background:linear-gradient(135deg,#2563EB,#1D4ED8); border-radius:18px;">
+        <div style="text-align:center; padding:15px 20px; background:linear-gradient(135deg,#2563EB,#1D4ED8); border-radius:18px;">
             <h1 style="color:white; font-size:42px;">🛍️ AI Customer Segmentation Dashboard</h1>
             <p style="color:#E2E8F0; font-size:20px;">Intelligent Customer Segmentation using Machine Learning</p>
             <p style="color:#F8FAFC; font-size:18px;">Analyze customer purchasing behavior using K-Means clustering</p>
