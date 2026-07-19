@@ -145,6 +145,12 @@ Run the application
 ```bash
 streamlit run app.py
 ```
+This streamlit app is deployed on streamlit community cloud
+## 🚀 Live Demo
+
+Check out the deployed application here:  
+👉 **[AI Customer Segmentation Dashboard](https://ai-customer-segmentation-eerzfgt6ntqzk3tsbmdn6j.streamlit.app/)**
+
 # 📷 Application Preview
 
 Please have a look on images in images folder
